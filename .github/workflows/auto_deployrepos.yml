@@ -33,4 +33,4 @@ jobs:
       - name: Installing surge
         run: npm Install --global surge
       - name: deploying using surge
-        run: surge ./naveedgitsample2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge ./NaveedGitsample2020.surge.sh --token ${{secrets.SURGE_TOKEN}}
